@@ -27,7 +27,7 @@
   網路選擇Localhost8545,chainID設置為31337  
   
 若執行至donate步驟,於Meatamask彈出視窗點選確認交易後彈出報錯訊息,或者沒有顯示交易資料,可能原因如下:  
-  WARNING: Calling an account which is not a contract -> 為保持執行npx hardhat run --network localhost scripts/01_deploy.js,  
+  WARNING: Calling an account which is not a contract -> 未保持執行npx hardhat run --network localhost scripts/01_deploy.js,  
   解決辦法為執行後刷新頁面重新操作即可  
     
   Nonce too high. Expected nonce to be 0 but got 1. Note that transactions can't be queued when automining. -> Metamask nonce設置問題,  
